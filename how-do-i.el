@@ -27,6 +27,8 @@
 
 ;;           <URL:http://github.com/edmellum/how-do-i.el/>
 
+;;; Code:
+
 (require 'url)
 (require 'json)
 
@@ -90,3 +92,5 @@ voted answer to the question."
     (get-google-urls question)))
   (message
    (buffer-string)))
+
+;;; filename ends here
